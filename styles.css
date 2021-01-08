@@ -26,14 +26,16 @@ display: inline-block;
   padding: 1rem;
   font-family: 'Indie Flower', cursive;
   font-size: 2rem;
-  color: #EEEEEE;
+  color: #FAF1D8;
+  margin-bottom: 0
 }
 
 .playerTitle {
-  padding: 2rem;
+  padding: 1.5rem;
   font-family: 'Gochi Hand', cursive;
   font-size: 2.5rem;
   color: #e43f5a;
+  margin-bottom: 0
 }
 
 .btn-outline-light:hover {
@@ -45,7 +47,7 @@ display: inline-block;
 }
 
 .icon {
-  color: #EEEEEE;
+  color: #FAF1D8;
   font-size: 2rem;
 }
 
