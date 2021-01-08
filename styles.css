@@ -11,7 +11,6 @@ display: inline-block;
 
 .footer {
   padding: 10rem 0 2.5rem;
-  color: #EEEEEE;
 }
 
 .title {
@@ -38,8 +37,13 @@ display: inline-block;
   margin-bottom: 0
 }
 
+.btn-outline-light {
+  border-color: #FAF1D8;
+}
+
 .btn-outline-light:hover {
   background-color: #e43f5a;
+  border-color: #FAF1D8;
 }
 
 .flag {
