@@ -8,9 +8,9 @@ function randomNumber() {
 
   document.querySelectorAll("img")[0].src = `images/dice${a}.png` // Target the image source and replace it
   document.querySelectorAll("img")[1].src = `images/dice${b}.png` // Target the image source and replace it
-  document.querySelector("h1").style.fontSize = '6rem' // Reduce the font size once the button is pressed
+  document.querySelector("h1").style.fontSize = '6rem' // Reduce the font size of the h1 once the button is pressed
 
-  if (b > a) {
+  if (b > a) { // Target the h1 and set the output text to declare the winner depending upon who has the highest roll
     document.querySelector("h1").innerText = 'Player 2 Wins!'
   } else if (a > b) {
     document.querySelector("h1").innerText = 'Player 1 Wins!'
